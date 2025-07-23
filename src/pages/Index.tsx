@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Clock, Star, Users, TrendingUp, Check, Shield, Smartphone, Award } from 'lucide-react';
-import heroImage from '@/assets/hero-strawberry.jpg';
+const heroImage = '/lovable-uploads/bcf4c17c-848d-4699-937b-3140983876dd.png';
 
 const Index = () => {
   const [timeLeft, setTimeLeft] = useState({
