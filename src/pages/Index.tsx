@@ -86,7 +86,7 @@ const Index = () => {
             
             <Button 
               onClick={scrollToOffer}
-              className="btn-cta text-2xl py-6 px-12 mb-8"
+              className="btn-cta mb-8"
             >
               🍓 QUERO COMEÇAR AGORA 🍓
             </Button>
@@ -230,7 +230,7 @@ const Index = () => {
                 79% de desconto - Oferta por tempo limitado
               </Badge>
               
-              <Button className="btn-cta text-3xl py-8 px-16 mb-8 w-full md:w-auto">
+              <Button className="btn-cta mb-8">
                 🍓 CLIQUE AQUI PARA COMEÇAR AGORA 🍓
               </Button>
               
@@ -271,7 +271,7 @@ const Index = () => {
               🔒 Se não amar, devolvemos seu dinheiro. Sem burocracia.
             </p>
             
-            <Button className="btn-cta text-2xl py-6 px-12">
+            <Button className="btn-cta">
               GARANTIR MINHA VAGA AGORA
             </Button>
           </div>
@@ -305,7 +305,7 @@ const Index = () => {
               ⚠️ Não perca essa oportunidade única!
             </p>
             
-            <Button className="btn-cta text-3xl py-8 px-16">
+            <Button className="btn-cta">
               🍓 SIM, EU QUERO FATURAR COM MORANGO! 🍓
             </Button>
             
