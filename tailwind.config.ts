@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				strawberry: {
+					DEFAULT: 'hsl(var(--strawberry-primary))',
+					light: 'hsl(var(--strawberry-light))',
+					dark: 'hsl(var(--strawberry-dark))'
+				},
+				gold: 'hsl(var(--gold))',
+				success: 'hsl(var(--success))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
