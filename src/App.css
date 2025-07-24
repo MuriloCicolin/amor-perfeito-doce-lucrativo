@@ -40,3 +40,36 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Efeito de destaque adicional para a imagem */
+.hero-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.hero-image-container::after {
+  content: '✨';
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 2rem;
+  animation: sparkle 1.5s ease-in-out infinite;
+}
+
+@keyframes sparkle {
+  0%, 100% { 
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+  50% { 
+    transform: scale(1.2) rotate(180deg);
+    opacity: 0.7;
+  }
+}
+
+/* Melhorar o efeito pulse-glow existente */
+.pulse-glow {
+  animation: pulseGlow 3s ease-in-out infinite alternate;
+  position: relative;
+  filter: brightness(1.1) saturate(1.2);
+}
