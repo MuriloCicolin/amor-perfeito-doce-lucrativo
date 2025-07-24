@@ -55,7 +55,6 @@ const Index = () => {
               <span>{timeLeft.minutes.toString().padStart(2, "0")}m</span>
               <span>{timeLeft.seconds.toString().padStart(2, "0")}s</span>
             </div>
-            <span>⚡ ÚLTIMAS VAGAS!</span>
           </div>
         </div>
       </div>
@@ -226,7 +225,8 @@ const Index = () => {
               {
                 name: "Ana",
                 location: "RJ",
-                testimonial: "Já tenho lista de espera!",
+                testimonial:
+                  "Aroveitei o momento da onda de Morango do amor e já tenho lista de espera!",
                 rating: 5,
               },
               {
@@ -278,6 +278,8 @@ const Index = () => {
                 79% de desconto - Oferta por tempo limitado
               </Badge>
 
+              <br></br>
+
               <Button
                 onClick={() =>
                   window.open(
@@ -289,18 +291,6 @@ const Index = () => {
               >
                 🍓 CLIQUE AQUI PARA COMEÇAR AGORA 🍓
               </Button>
-
-              <div className="countdown-timer rounded-xl p-6 inline-block text-white mb-8">
-                <p className="text-xl font-bold mb-4">
-                  ⏳ Restam apenas 23 vagas – acesso imediato!
-                </p>
-                <div className="flex items-center justify-center gap-2">
-                  <Clock className="w-6 h-6" />
-                  <span className="text-lg">
-                    Últimas vagas com 79% de desconto
-                  </span>
-                </div>
-              </div>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8 mb-12">
